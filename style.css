@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.header{
+    width:100%;
+    height:50px;
+   
+    box-sizing: border-box;
+    background-color: gray;
+
+}
+.left{
+    margin:0px 10px;
+    width: 10%;
+    height: 30px;
+    display: inline-block;
+    
+   
+    
+}
+.logo{
+    height:50px;
+    width: 55px;
+}
+.mid{
+    width: 50%;
+    margin:-45px 140px;
+    height: 30px;
+    
+}
+.mid ul{
+    text-align: center; 
+}
+.mid ul li{
+    display: inline-block;
+
+}
+.mid ul li a{
+    text-decoration: none;
+    padding:5px 60px;
+    color:rgb(246, 246, 246);
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+.mid ul li a:hover{
+    background-color: #f9fffa;
+    color:black;
+    opacity: 0.5;
+}
+.right{
+    height: 30px;
+    border:1px solid white;
+    display: inline-block;
+    position: absolute;
+    top:9px;
+    right:8px;
+}
+.home{
+    display:flex;
+    background: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 20px;
+    background-image: url(image/food1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    opacity:0.89;
+    z-index:-1;
+}
+.home .h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color:rgb(79, 237, 0);
+
+}
+.home p{
+    font-size: 1,5rem;
+    text-align: center;
+    color:rgba(254, 255, 255, 0.846);
+    margin:2px 0px;
+}
+.home button{
+    width:100px;
+    background-color:brown;
+    color:white;
+    border:1px solid rgb(116, 171, 116);
+    margin:4px 0;
+    padding:5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.home button:hover{
+    background-color: #f9fffa;
+    color:black;
+}
+    .cointane{
+        width: 100%;
+        height:30px;
+        display: flex;
+        margin: 4px 20px;
+        
+}
+.h{
+  text-align: center;
+  font-size: 2.20rem;
+  margin: 10px 0px;
+}
+
+
+
+.box{
+    
+    text-align: center;
+    margin:10px 10px;
+    padding:10px 5px;
+    border:1px solid black;
+    height: 250px;
+    width:85%;
+    border-radius: 10px;
+    background-color:#f2f2f2;
+    font-family:serif;
+}
+.survice img{
+    width:200px;
+    height: 150px;
+    margin:20px 30px
+}
+.client-section{
+    height:70px;
+    width: 100%;
+}
+.client-item{
+    width: 100%;
+    height: 70px;
+}
+
+
